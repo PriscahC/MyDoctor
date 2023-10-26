@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    padding: 10px;
+    background-color: rgba(1, 1, 1, .7);   
+    height: 100vh;
+    width: 100vw;   
+}
+.box{
+    height: 100%;
+    width: 100%;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.overlay{
+    background-color: rgba(1, 1, 1, .7);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.content{
+    width: 80%;
+    margin: 0, auto;
+    text-align: center;
+}
+button{
+    margin: 2em;
+    padding: 0.5em 2em;
+    background-color: rgb(1, 1, 40);
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+}
+button:hover{
+    background-color: rgba(1, 1, 40, .3);
+    color: white;
+    font-weight: 700;
+}
+form{
+    width: 100%;
+}
